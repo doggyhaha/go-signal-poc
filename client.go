@@ -123,7 +123,7 @@ func main() {
 	}
 	material = append(material, sharedSecret...)
 	salt := make([]byte, 32)
-	info := []byte("Leotonico cia ilgay")
+	info := []byte("some infos")
 	//Alice derives a symmetric key from the shared secret.
 	exKey := hkdf.Extract(sha512.New, material, salt)
 	//Alice derives a symmetric key from the shared secret.
@@ -229,7 +229,7 @@ func main() {
 	bobmaterial = append(bobmaterial, bobSharedSecret...)
 	fmt.Println(bytes.Equal(bobmaterial, material))
 	bobsalt := make([]byte, 32)
-	bobinfo := []byte("Leotonico cia ilgay")
+	bobinfo := []byte("some infos")
 	//Bob derives a symmetric key from the shared secret.
 	bobexKey := hkdf.Extract(sha512.New, bobmaterial, bobsalt)
 	fmt.Println(bytes.Equal(bobexKey, exKey))
