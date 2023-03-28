@@ -1,4 +1,4 @@
-//taken from https://github.com/brandonweeks/crypto/blob/a7692cc83628e44cb7bd8621b82870c2565b93c6/x25519/x25519.go
+//taken from https://github.com/smallstep/crypto/blob/a7692cc83628e44cb7bd8621b82870c2565b93c6/x25519/x25519.go
 
 package main
 

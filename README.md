@@ -7,7 +7,7 @@ Everyone is free to use it, fork it, modify it and maybe even continue it.
 > If you want to continue this project, feel free to do so, just [let me know](https://t.me/cagavo) so i can link your fork here.
 
 It only implements the [X3DH](https://signal.org/docs/specifications/x3dh/) key exchange using [XEdDSA](https://signal.org/docs/specifications/xeddsa/).  
-The XEdDSA code was taken from [brandonweeks/crypto](https://github.com/brandonweeks/crypto) which is licensed under the Apache License 2.0.  
+The XEdDSA code was taken from [smallstep/crypto](https://github.com/smallstep/crypto) which is licensed under the Apache License 2.0.  
 This code uses the 25519 curve but it shouldn't be hard to change it to the 448 curve. 
 
 It was written following the [Signal protocol specification](https://signal.org/docs/).
