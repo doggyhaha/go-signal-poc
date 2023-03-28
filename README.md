@@ -10,14 +10,14 @@ It only implements the [X3DH](https://signal.org/docs/specifications/x3dh/) key 
 The XEdDSA code was taken from [brandonweeks/crypto](https://github.com/brandonweeks/crypto) which is licensed under the Apache License 2.0.  
 This code uses the 25519 curve but it shouldn't be hard to change it to the 448 curve. 
 
+It was written following the [Signal protocol specification](https://signal.org/docs/).
+
 > **Warning**
 > This code is not secure, it was written just for fun and to learn about the signal protocol.  
 > I don't recommend using it in production.
 
 > **Note**
 > This was tested only on windows but it should work everywhere, however i don't have plans to update it anymore.
-
-It was written following the [Signal protocol specification](https://signal.org/docs/).
 
 ## Usage
 
